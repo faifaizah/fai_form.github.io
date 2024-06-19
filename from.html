@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Contoh Form</h2>
+
+    <form action="/kemana">
+        <div>
+            <label for="username">Username</label>
+            <input id="username" type="text"
+            placeholder="Username Anda" name="username">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" type="password"
+            placeholder="Password Anda" name="password">
+        </div>
+        <br>
+        <div>
+            <label for="color">Enter a Numer:</label>
+            <input type="color" id="color" name="color"
+        </div>
+        <br>
+        <div>
+            <label for="number">Enter a Number:</label>
+            <input id="number" type="number"
+            placeholder="Masukan nomor togel Anda"
+            name="nomor" min="1" max="100">
+        </div>
+        <br>
+    </form>
+
+    <h3>Seacrh Ala faizah</h3>
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="query">
+        <button>Search Google</button>
+    </form>
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search Youtube</button>
+    </form>
+</body>
